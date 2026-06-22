@@ -168,12 +168,12 @@ export default function PortalLogin() {
             </div>
 
             <div className="mt-6">
-              <a
-                href="#"
+              <Link
+                href="/register"
                 className="w-full flex justify-center py-2.5 px-4 border border-slate-300 rounded-lg shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
               >
                 Register as a New Patient
-              </a>
+              </Link>
             </div>
           </div>
         </div>

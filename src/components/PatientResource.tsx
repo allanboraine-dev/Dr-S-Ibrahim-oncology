@@ -48,15 +48,15 @@ export function PatientResource() {
               Skip the waiting room paperwork. Track your appointment status, securely upload clinical files, and communicate with our care team in real time through our secure digital portal.
             </p>
             
-            <Link href="/portal">
-              <motion.button
+            <Link href="/portal" className="inline-block">
+              <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-blue-600 px-8 py-3.5 text-sm font-semibold text-white shadow-lg hover:bg-blue-500 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-slate-900"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-blue-600 px-8 py-3.5 text-sm font-semibold text-white shadow-lg hover:bg-blue-500 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-slate-900 cursor-pointer"
               >
                 Access Patient Portal
                 <ArrowRight className="h-4 w-4" />
-              </motion.button>
+              </motion.div>
             </Link>
           </motion.div>
 
