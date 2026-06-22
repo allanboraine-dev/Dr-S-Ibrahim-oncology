@@ -49,7 +49,7 @@ export function Navigation() {
           {/* CTA Button */}
           <div className="flex items-center">
             <Link
-              href="#portal"
+              href="/portal"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-slate-900 px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 hover:shadow-md transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900"
             >
               <UserRound className="h-4 w-4" />

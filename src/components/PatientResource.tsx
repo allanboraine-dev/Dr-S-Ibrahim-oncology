@@ -48,7 +48,7 @@ export function PatientResource() {
               Skip the waiting room paperwork. Track your appointment status, securely upload clinical files, and communicate with our care team in real time through our secure digital portal.
             </p>
             
-            <Link href="#portal">
+            <Link href="/portal">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
